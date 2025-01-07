@@ -4,7 +4,7 @@
 }
 
 .top {
-    background-color: #485afa;
+    background-color: #0571C2;
     padding: 10px 200px 200px 200px;
 }
 
@@ -41,7 +41,7 @@ a {
 
 .header h2 {
     font-family: Funky;
-    font-size: medium;
+    font-size: 1em;
 
 }
 
@@ -66,6 +66,7 @@ a {
     margin-bottom: 0;
     font-family: Funky;
     color: white;
+    font-size: 2.5em;
 }
 
 .container_1 p {
@@ -84,7 +85,7 @@ button {
     border-radius: 10px;
     font-family: sans-serif;
     font-weight: 1000;
-    background-color: #8b97ff;
+    background-color: #85cdfe;
     color: white;
     border: none;
 }
@@ -92,6 +93,9 @@ button {
 .m_text {
     display: flex;
     justify-content: center;
+    font-size: 2em;
+
+
 }
 
 .container_2 {
@@ -114,19 +118,51 @@ button {
 .container_2 img {
     background-color: gray;
     width: 200px;
-    border: #485afa solid 2px;
+    border: #0571C2 solid 2px;
     border-radius: 5px;
     height: 100px;
 
 
 }
 
+.quote {
+    background-color: #86c2efef;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
 
 
 .footer {
     display: flex;
     justify-content: space-around;
     margin-top: auto;
-    background-color: #485afa;
+    background-color: #0571C2;
     color: white;
+}
+
+.call {
+    display: flex;
+    padding: 24px;
+    background-color: #4296d7;
+    width: 300px;
+    margin: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+
+
+}
+
+.call h5 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: aliceblue;
+}
+
+.call button {
+    margin-left: 100px;
 }
